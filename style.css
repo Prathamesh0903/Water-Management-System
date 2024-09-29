@@ -74,6 +74,7 @@ margin: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 
@@ -138,4 +139,98 @@ color: black;
 }
 .btnn:hover{
     transform: scale(1.1);
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h1{
+    font-size: 4rem;
+    color: white; 
+}
+.content div{
+    margin: 5rem;
+}
+
+.content button{
+    width: 18rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-color:#2F75B8;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 5rem;
+    margin-top: 2rem;
+    background-color: burlywood;
+}
+.photo{
+    width: 100%;
+    height: 70vh;
+    background: wheat;
+    background-image: url(photo.webp);
+}
+
+.footer{
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+}
+
+.link1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    height: 60%;
+    border-bottom:2px solid white;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.link01{
+    width: 50%;
+}
+.link01 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:white;
+    margin: 2rem;
+}
+.link2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:black;
+    height: 40%;
+}
+.link03{
+    width: 50%;
+    margin-left: 4rem;
+}
+
+.link02 a i{
+font-size: 1.6rem;
+margin: 1rem;
+margin-right: 1rem;
+color: white;
+}
+.link03 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:white;
+    margin: 2rem;
+}
+.link04 a{
+    margin: 1rem;
+    margin-right: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 4rem;
 }
