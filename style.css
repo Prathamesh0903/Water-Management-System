@@ -9,12 +9,14 @@
     position: fixed;
     border-bottom: 1px solid bisque;
     height: 5rem;
+    background: white;
+    width: 100%;
 }
 .logo{
     width: 50%;
 }
 .logo img{
-    width: 25%;
+    width: 15%;
    
    margin-left: 1rem;
 }
@@ -31,13 +33,13 @@ margin: 1rem;
 }
 .events ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 1.4rem;
     transition: all 0.5s ease-out;
     padding: 10px 3px;
 }
 .events ul li a:hover{
-  color: bisque; 
+  color: rgb(232, 177, 110); 
   border-bottom:2px solid bisque ;
   font-size: 1.5rem;
 }
@@ -50,7 +52,7 @@ margin: 1rem;
     align-items: center;
     margin-right: 2rem;
     border-radius: 15px;
-  background: lightblue;
+  background: bisque;
 
 }
 .btn a{
@@ -60,7 +62,6 @@ margin: 1rem;
     font-size: 1.1rem;
 }
 .btn:hover{
-    background:bisque;
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -68,7 +69,7 @@ margin: 1rem;
 .main{
     height:100vh;
     width: 100%;
-    background-image: url(waterbg.jpg);
+    background-image: url(bgblue.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -79,14 +80,12 @@ margin: 1rem;
 
 
 .boxes{
-    width: 36rem;
-    height: 30rem;
+    width: 39rem;
+    height: 40rem;
     margin-top: 5rem;
-    /* border: 2px solid; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:rgb(255, 228, 196,0.5);
     border-radius: 20px;
  
 }
@@ -99,8 +98,8 @@ transition: all 0.1s ease-out;
 }
 
 .box{
-    width: 9rem;
-    height: 9rem;
+    width: 11rem;
+    height: 11rem;
     border: 2px solid black;
     margin: 0.5rem;
     border-radius: 10px;
@@ -108,7 +107,9 @@ transition: all 0.1s ease-out;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
+    background-color: aliceblue;
 }
 
  .box h2{
@@ -120,10 +121,10 @@ color: black;
  .box p{
     font-size: 0.7rem;
     margin: 0.1rem;
-    color:white;
+    color:black;
  }
  .box i{
-    color:rgb(55, 55, 66);
+    color:rgb(91, 168, 201);
     font-size: 1.3rem;
  }
 
@@ -131,11 +132,12 @@ color: black;
     width: 9rem;
     height: 3rem;
     border-radius: 15px;
-    background-color: burlywood;
-    margin-top: 1.5rem;
+    background-color: blanchedalmond;
+    margin-bottom: 1rem;
     border:2px solid white;
     font-weight: bold;
-    
+    cursor: pointer;
+    color:black;
 }
 .btnn:hover{
     transform: scale(1.1);
@@ -143,10 +145,16 @@ color: black;
 .content{
     width: 100%;
     height: 100vh;
-    background: skyblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+}
+.bgvideo{
+position: fixed;
+right: 0;
+left: 0;
+z-index: -1;
 }
 
 .content h1{
@@ -168,13 +176,19 @@ color: black;
     font-size: 1.3rem;
     margin: 5rem;
     margin-top: 2rem;
-    background-color: burlywood;
+    background-color: rgb(91, 168, 201);
+}
+.content button:hover{
+    transform: scale(1.1);
+}
+.btn2:hover{
+    transform: scale(1.1);
 }
 .photo{
     width: 100%;
     height: 70vh;
     background: wheat;
-    background-image: url(photo.webp);
+    background: url(photo.webp);
 }
 
 .footer{
@@ -219,6 +233,9 @@ font-size: 1.6rem;
 margin: 1rem;
 margin-right: 1rem;
 color: white;
+}
+.link02 a i:hover{
+transform: scale(1.2);
 }
 .link03 a{
     font-size: 1.2rem;
